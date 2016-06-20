@@ -1,0 +1,34 @@
+body{
+	margin:0;
+   font-size:9px;
+  font-family:Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+#carte{
+  	width: 840px;
+  	height: 525px;
+  	margin: 200px auto;
+    background: #41d1cc url(../images/mape2.gif) no-repeat;
+    position: relative;
+}
+#score , .score {
+      position: absolute;
+      top:20px;
+      left:10px;
+      font-size: 2em;
+}
+#mario {
+   width: 32px;
+   height: 60px;
+   background: url(../images/corriendo1.gif)  no-repeat  ;
+   border: transparent;
+   position: absolute;
+   left: 5px;
+   bottom: 55px;
+   z-index: 1000;
+}
+.piece{
+  position: absolute;
+  top:410px;
+  left: 350px;
+}
